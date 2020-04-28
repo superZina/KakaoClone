@@ -2,7 +2,7 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Friend" representedClassName="Friend" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="profile" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="profile" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
         <attribute name="state" optional="YES" attributeType="String"/>
     </entity>
     <elements>

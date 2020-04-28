@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF83F74C245679B500D05F13 /* kakaoLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83F74B245679B500D05F13 /* kakaoLogin.swift */; };
+		FF83F74E24567B0000D05F13 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF83F74D24567B0000D05F13 /* KakaoOpenSDK.framework */; };
+		FF8823162455F2F00083667F /* weatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8823152455F2F00083667F /* weatherViewController.swift */; };
+		FF882318245609F20083667F /* boxOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF882317245609F20083667F /* boxOfficeViewController.swift */; };
+		FF88231B24560A530083667F /* boxOfficeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88231924560A530083667F /* boxOfficeCell.swift */; };
+		FF88231C24560A530083667F /* boxOfficeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF88231A24560A530083667F /* boxOfficeCell.xib */; };
+		FF8D148D2454A62F00600553 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D148C2454A62F00600553 /* mapViewController.swift */; };
 		FF8EA882244A190900433531 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EA881244A190900433531 /* ViewController2.swift */; };
 		FFA01F9A2448B7670023BA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA01F992448B7670023BA5A /* AppDelegate.swift */; };
 		FFA01F9C2448B7670023BA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA01F9B2448B7670023BA5A /* SceneDelegate.swift */; };
@@ -17,9 +24,19 @@
 		FFA01FA92448B7680023BA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA01FA72448B7680023BA5A /* LaunchScreen.storyboard */; };
 		FFA01FB22448BA670023BA5A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA01FB02448BA670023BA5A /* TableViewCell.swift */; };
 		FFA01FB32448BA670023BA5A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA01FB12448BA670023BA5A /* TableViewCell.xib */; };
+		FFB7F515245033E500517F9B /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7F514245033E500517F9B /* FriendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B52E72CA2EF295C3F836B97B /* Pods-KakaoClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoClone.debug.xcconfig"; path = "Target Support Files/Pods-KakaoClone/Pods-KakaoClone.debug.xcconfig"; sourceTree = "<group>"; };
+		B6708721C603635A5C661C6A /* Pods-KakaoClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoClone.release.xcconfig"; path = "Target Support Files/Pods-KakaoClone/Pods-KakaoClone.release.xcconfig"; sourceTree = "<group>"; };
+		FF83F74B245679B500D05F13 /* kakaoLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoLogin.swift; sourceTree = "<group>"; };
+		FF83F74D24567B0000D05F13 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		FF8823152455F2F00083667F /* weatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherViewController.swift; sourceTree = "<group>"; };
+		FF882317245609F20083667F /* boxOfficeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boxOfficeViewController.swift; sourceTree = "<group>"; };
+		FF88231924560A530083667F /* boxOfficeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boxOfficeCell.swift; sourceTree = "<group>"; };
+		FF88231A24560A530083667F /* boxOfficeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boxOfficeCell.xib; sourceTree = "<group>"; };
+		FF8D148C2454A62F00600553 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		FF8EA881244A190900433531 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		FFA01F962448B7670023BA5A /* KakaoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA01F992448B7670023BA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +49,7 @@
 		FFA01FAA2448B7680023BA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFA01FB02448BA670023BA5A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		FFA01FB12448BA670023BA5A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		FFB7F514245033E500517F9B /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +57,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF83F74E24567B0000D05F13 /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A04AA44406EED7460D74612D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF83F74D24567B0000D05F13 /* KakaoOpenSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A455A52CC5DE2EB51A9225FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B52E72CA2EF295C3F836B97B /* Pods-KakaoClone.debug.xcconfig */,
+				B6708721C603635A5C661C6A /* Pods-KakaoClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF8D148A2454994B00600553 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				FFA01F9D2448B7670023BA5A /* ViewController.swift */,
+				FF8EA881244A190900433531 /* ViewController2.swift */,
+				FF83F74B245679B500D05F13 /* kakaoLogin.swift */,
+				FFB7F514245033E500517F9B /* FriendViewController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		FF8D148B2454996700600553 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				FFA01FB02448BA670023BA5A /* TableViewCell.swift */,
+				FFA01FB12448BA670023BA5A /* TableViewCell.xib */,
+				FF88231924560A530083667F /* boxOfficeCell.swift */,
+				FF88231A24560A530083667F /* boxOfficeCell.xib */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		FF8D148E2454A64000600553 /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D148C2454A62F00600553 /* mapViewController.swift */,
+				FF8823152455F2F00083667F /* weatherViewController.swift */,
+				FF882317245609F20083667F /* boxOfficeViewController.swift */,
+			);
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
 		FFA01F8D2448B7670023BA5A = {
 			isa = PBXGroup;
 			children = (
 				FFA01F982448B7670023BA5A /* KakaoClone */,
 				FFA01F972448B7670023BA5A /* Products */,
+				A455A52CC5DE2EB51A9225FE /* Pods */,
+				A04AA44406EED7460D74612D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,13 +134,12 @@
 		FFA01F982448B7670023BA5A /* KakaoClone */ = {
 			isa = PBXGroup;
 			children = (
+				FF8D148E2454A64000600553 /* New Group2 */,
 				FFA01F992448B7670023BA5A /* AppDelegate.swift */,
 				FFA01F9B2448B7670023BA5A /* SceneDelegate.swift */,
-				FFA01F9D2448B7670023BA5A /* ViewController.swift */,
-				FFA01FB02448BA670023BA5A /* TableViewCell.swift */,
-				FFA01FB12448BA670023BA5A /* TableViewCell.xib */,
+				FF8D148B2454996700600553 /* New Group1 */,
+				FF8D148A2454994B00600553 /* New Group */,
 				FFA01F9F2448B7670023BA5A /* Main.storyboard */,
-				FF8EA881244A190900433531 /* ViewController2.swift */,
 				FFA01FA52448B7680023BA5A /* Assets.xcassets */,
 				FFA01FA72448B7680023BA5A /* LaunchScreen.storyboard */,
 				FFA01FAA2448B7680023BA5A /* Info.plist */,
@@ -86,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFA01FAD2448B7680023BA5A /* Build configuration list for PBXNativeTarget "KakaoClone" */;
 			buildPhases = (
+				91891384EB759C250F3359E5 /* [CP] Check Pods Manifest.lock */,
 				FFA01F922448B7670023BA5A /* Sources */,
 				FFA01F932448B7670023BA5A /* Frameworks */,
 				FFA01F942448B7670023BA5A /* Resources */,
+				A5C5681928DA2CAE522D7362 /* [CP] Embed Pods Frameworks */,
+				765239A3EE9CC18E56393F7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,12 +211,72 @@
 			files = (
 				FFA01FA92448B7680023BA5A /* LaunchScreen.storyboard in Resources */,
 				FFA01FB32448BA670023BA5A /* TableViewCell.xib in Resources */,
+				FF88231C24560A530083667F /* boxOfficeCell.xib in Resources */,
 				FFA01FA62448B7680023BA5A /* Assets.xcassets in Resources */,
 				FFA01FA12448B7670023BA5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		765239A3EE9CC18E56393F7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoClone/Pods-KakaoClone-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoClone/Pods-KakaoClone-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakaoClone/Pods-KakaoClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91891384EB759C250F3359E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakaoClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C5681928DA2CAE522D7362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoClone/Pods-KakaoClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoClone/Pods-KakaoClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakaoClone/Pods-KakaoClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFA01F922448B7670023BA5A /* Sources */ = {
@@ -154,9 +286,15 @@
 				FFA01FB22448BA670023BA5A /* TableViewCell.swift in Sources */,
 				FFA01F9E2448B7670023BA5A /* ViewController.swift in Sources */,
 				FFA01F9A2448B7670023BA5A /* AppDelegate.swift in Sources */,
+				FF88231B24560A530083667F /* boxOfficeCell.swift in Sources */,
+				FFB7F515245033E500517F9B /* FriendViewController.swift in Sources */,
+				FF882318245609F20083667F /* boxOfficeViewController.swift in Sources */,
 				FFA01F9C2448B7670023BA5A /* SceneDelegate.swift in Sources */,
+				FF8D148D2454A62F00600553 /* mapViewController.swift in Sources */,
+				FF8823162455F2F00083667F /* weatherViewController.swift in Sources */,
 				FFA01FA42448B7670023BA5A /* KakaoClone.xcdatamodeld in Sources */,
 				FF8EA882244A190900433531 /* ViewController2.swift in Sources */,
+				FF83F74C245679B500D05F13 /* kakaoLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,17 +436,28 @@
 		};
 		FFA01FAE2448B7680023BA5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52E72CA2EF295C3F836B97B /* Pods-KakaoClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L398A7UTZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KakaoClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+					"-Objc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.softsquared.ios.KakaoClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,17 +465,28 @@
 		};
 		FFA01FAF2448B7680023BA5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6708721C603635A5C661C6A /* Pods-KakaoClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L398A7UTZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KakaoClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+					"-Objc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.softsquared.ios.KakaoClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
