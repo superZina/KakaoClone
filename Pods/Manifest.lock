@@ -1,0 +1,125 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireNetworkActivityIndicator (2.4.0):
+    - Alamofire (~> 4.8)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - DynamicCodable (1.0)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - KakaoSDKNavi (2.0.0-beta.4):
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+  - KakaoSDKTemplate (2.0.0-beta.4):
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+  - naveridlogin-sdk-ios (4.1.2)
+  - ObjectMapper (3.5.2)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxKakaoSDK (2.0.0-beta.4):
+    - KakaoSDKNavi (= 2.0.0-beta.4)
+    - KakaoSDKTemplate (= 2.0.0-beta.4)
+    - RxKakaoSDKAuth (= 2.0.0-beta.4)
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+    - RxKakaoSDKLink (= 2.0.0-beta.4)
+    - RxKakaoSDKStory (= 2.0.0-beta.4)
+    - RxKakaoSDKTalk (= 2.0.0-beta.4)
+    - RxKakaoSDKUser (= 2.0.0-beta.4)
+  - RxKakaoSDKAuth (2.0.0-beta.4):
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+  - RxKakaoSDKCommon (2.0.0-beta.4):
+    - DynamicCodable (~> 1.0)
+    - RxAlamofire (~> 5.1.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxKakaoSDKLink (2.0.0-beta.4):
+    - KakaoSDKTemplate (= 2.0.0-beta.4)
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+  - RxKakaoSDKStory (2.0.0-beta.4):
+    - RxKakaoSDKAuth (= 2.0.0-beta.4)
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+  - RxKakaoSDKTalk (2.0.0-beta.4):
+    - KakaoSDKTemplate (= 2.0.0-beta.4)
+    - RxKakaoSDKAuth (= 2.0.0-beta.4)
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+  - RxKakaoSDKUser (2.0.0-beta.4):
+    - RxKakaoSDKAuth (= 2.0.0-beta.4)
+    - RxKakaoSDKCommon (= 2.0.0-beta.4)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityIndicator (~> 2.3)
+  - AlamofireObjectMapper (~> 5.2)
+  - GoogleMaps
+  - GooglePlaces
+  - naveridlogin-sdk-ios
+  - RxKakaoSDK (~> 2.0.0-beta.3)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - AlamofireObjectMapper
+    - DynamicCodable
+    - GoogleMaps
+    - GooglePlaces
+    - KakaoSDKNavi
+    - KakaoSDKTemplate
+    - naveridlogin-sdk-ios
+    - ObjectMapper
+    - RxAlamofire
+    - RxCocoa
+    - RxKakaoSDK
+    - RxKakaoSDKAuth
+    - RxKakaoSDKCommon
+    - RxKakaoSDKLink
+    - RxKakaoSDKStory
+    - RxKakaoSDKTalk
+    - RxKakaoSDKUser
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireNetworkActivityIndicator: 9acc3de3ca6645bf0efed462396b0df13dd3e7b8
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  DynamicCodable: 2cf558d057b3e6540552943254e1c9eeb706dde2
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  KakaoSDKNavi: e541eefff21990122496b7e120c61ee03b4bd392
+  KakaoSDKTemplate: 7cdede1d9dc5200ceafa40ca7cb7ab6c4eac6f39
+  naveridlogin-sdk-ios: cf8afccdb1793d4ecfcd5d46aa8729d8b5058c70
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxKakaoSDK: c383a8c724ea4d88dd72fa8a3e068f9e9913fcd5
+  RxKakaoSDKAuth: 3d635eac60c169a93c9ccc2e9b9e9096d9c1ae0b
+  RxKakaoSDKCommon: 2e2b363607ea1fd3ab9955ed060b12c2195eb777
+  RxKakaoSDKLink: ed6ecc78d88f40dacef1f236839715e22849c085
+  RxKakaoSDKStory: 381cfe9783a3e11a3419000b89f1792211ab9a7e
+  RxKakaoSDKTalk: 88ea757f74a160e8e01e093b3eb8c87669c46bd1
+  RxKakaoSDKUser: ee1223b54cf7a0ddb43d3f59bce27bc18fea4b78
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 0a41c90cdc44b3853a90a9aeccc7e727b14353e5
+
+COCOAPODS: 1.9.1
